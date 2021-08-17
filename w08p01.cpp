@@ -18,9 +18,9 @@ public:
     void setR(double R) { this->R = round(R); }
     void setG(double G) { this->G = round(G); }
     void setB(double B) { this->B = round(B); }
-    // int getR() { return R; }
-    // int getG() { return G; }
-    // int getB() { return B; }
+    int getR() { return R; }
+    int getG() { return G; }
+    int getB() { return B; }
 
     string toString()
     {
